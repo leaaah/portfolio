@@ -9,5 +9,19 @@ function changetext() {
     document.getElementById("factsix").innerHTML = "I have never eaten at Taco Bell";
 }
 function changepage() {
-    document.getElementById("demotwo").innerHTML = "Social Media";
+    var x = document.getElementById('picture');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+      } else {
+        x.style.display = 'none';
+      }
+}
+function changepage2() {
+  document.getElementById("insta").innerHTML = "Instagram";
+}
+function changepage3() {
+  document.getElementById("picture");
+}
+function myFunction() {
+        alert("Welcome!");
 }

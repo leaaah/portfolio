@@ -30,24 +30,8 @@ h3 {
 
 p {
     font-family: verdana;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
 }
 
-p2 {
-    font-family: verdana;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-}
-
-h4 {
-    font-family: verdana;
-    text-align: center;
-}
 #facts{
     font-family: verdana;
 }
@@ -68,4 +52,10 @@ h4 {
 }
 #factsix{
     font-family: verdana;
+}
+#insta{
+    font-family: verdana;
+}
+#picture{
+    display: none;
 }
