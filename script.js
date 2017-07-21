@@ -19,3 +19,6 @@ function changepage() {
 function myFunction() {
         alert("Welcome!");
 }
+function myFunction2() {
+        location.href = "https://www.instagram.com/leah.g23/?hl=en";
+}
