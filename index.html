@@ -3,36 +3,63 @@
 <head>
   <script type="text/javascript" src="script.js"></script>
   <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 <h1>Leah Grace Moore</h1>
 <h2>An Autobiographical Website</h2>
 
+<div class="container">
+  <ul class="nav nav-pills">
+    <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
+    <li><a data-toggle="pill" href="#menu1">Social Media</a></li>
+    <li><a data-toggle="pill" href="#menu2">Animals</a></li>
+    <li><a data-toggle="pill" href="#menu3">Charitable Causes</a></li>
+    <li><a data-toggle="pill" href="#menu4">Travel</a></li>
+  </ul>
 
-<div class="profiles">
-<img src="picture.jpg" alt="IMG_7908" width="550" height="1000" onmouseover="this.width=575;" onmouseout="this.width=550" alt="Img1"/>
+<div class="tab-content">
+  <div id="home" class="tab-pane fade in active">
+    <h3>About Me</h3>
+    <button class="btn btn-default btn-sm" onclick="changetext()">More!</button>
+    <button class="btn btn-default btn-sm" onclick="myFunction()">Hello!</button>
+      <p>I enjoy many activities and aspects of life, but one of the biggest is music. Whether or not it is listening to music, reasurching famous artists and bands, playing music, writing music, or singing music, I enjoy it all. I guess you could call me a music junkie.</p>
+      <p>Although I enjoy a lot, I also dislike some activities. I do not enjoy fishing or anything that involves fish. I love swimming in the ocean and doing lake activities (canoeing, kayaking, paddleboarding, tubing, ext), but it takes me a lot to not have the fish bother me. I don't really understand why fish bother me so much, they just do for some reason.</p>
+      <p>I love designing and organizing. As an example, I re-organize my bedroom frequently as well as write/draw in my bullet journal frequently. Speaking of writing, it is one of my favorite pastimes. Ever since I was a fifth grader I have found interest in writing fictional stories, short stories, poems, and basically anything involving words/writing. Yet this interest is very ironic because I do not enjoy reading. If it is mandatory reading for school I strongly do not like it, but if it is reading for personal reasons I can talk myself into enjoying it. This is just very odd because my mother is an english teacher and my sister is an english major.</p>
+      <img id="picone" src="picture.jpg" alt="IMG_7908" width="450" height="500" onmouseover="this.width=475;" onmouseout="this.width=450" alt="Img1"/>
+      <img id="pictwo" src="picturetwo.jpg" alt="IMG_7908" width="450" height="500" onmouseover="this.width=475;" onmouseout="this.width=450" alt="Img1"/>
+    <h4 id="demo"></h4>
+      <ul style="list-style-type:disc">
+      <li><p id="facts"></p></li>
+      <li><p id="factone"></p></li>
+      <li><p id="facttwo"></p></li>
+      <li><p id="factthree"></p></li>
+      <li><p id="factfour"></p></li>
+      <li><p id="factfive"></p></li>
+      <li><p id="factsix"></p></li>
+  </div>
+  <div id="menu1" class="tab-pane fade">
+    <h3>YouTube and Instagram</h3>
+<iframe width="450" height="400" src="https://www.youtube.com/embed/D4M8M2AkLcA"></iframe>
+  </div>
 
+  <div id="menu2" class="tab-pane fade">
+    <h3>Animals</h3>
+
+  </div>
+  <div id="menu3" class="tab-pane fade">
+    <h3>Charitable Causes</h3>
+
+  </div>
+  <div id="menu4" class="tab-pane fade">
+    <h3>Travel</h3>
+
+  </div>
 </div>
-
-<h3>Likes and Dislikes</h3>
-  <p>I enjoy many activities and aspects of life, but one of the biggest is music. Whether or not it is listening to music, reasurching famous artists and bands, playing music, writing music, or singing music, I enjoy it all. I guess you could call me a music junkie.</p>
-  <p>Although I enjoy a lot, I also dislike some activities. I do not enjoy fishing or anything that involves fish. I love swimming in the ocean and doing lake activities (canoeing, kayaking, paddleboarding, tubing, ext), but it takes me a lot to not have the fish bother me. I don't really understand why fish bother me so much, they just do for some reason.</p>
-
-<h4 id="demo"></h4>
-  <ul style="list-style-type:disc">
-  <li><p id="facts"></p></li>
-  <li><p id="factone"></p></li>
-  <li><p id="facttwo"></p></li>
-  <li><p id="factthree"></p></li>
-  <li><p id="factfour"></p></li>
-  <li><p id="factfive"></p></li>
-  <li><p id="factsix"></p></li>
-
-<button onclick="changetext()">More!</button>
-<button onclick="myFunction()">Hello!</button>
-
-<button onclick="changepage()">Social Media</button>
-  <img id="picture"src="picturetwo.jpg" alt="picture" width="100" height="200"</img>
-
+</div>
 </body>
 </html>

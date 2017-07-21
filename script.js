@@ -16,12 +16,6 @@ function changepage() {
         x.style.display = 'none';
       }
 }
-function changepage2() {
-  document.getElementById("insta").innerHTML = "Instagram";
-}
-function changepage3() {
-  document.getElementById("picture");
-}
 function myFunction() {
         alert("Welcome!");
 }
